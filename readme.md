@@ -68,7 +68,7 @@ classifiers with over 95% accuracy on testing data, with my best model
 being a SVM with approximately 97% accuracy, followed by an
 XGBoostClassifier and a Perceptron.
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 Data Mining Task\
 The data mining task I sought to achieve was classification. The task
@@ -140,7 +140,7 @@ Where should my data come from? What should
 ![](vertopal_7eb1f60910004097a76c041337082e5d/media/image1.png){width="5.605555555555555in"
 height="3.558157261592301in"}
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 my metrics my data consist of? How do I clean my data of outliers that
 will hurt model performance? In what form should I transform my data
@@ -199,7 +199,7 @@ position I grouped them into those 2 categories, frontcourt and
 backcourt, and because they are selected each year, I also grouped them
 by year, so in total by position and year. With these
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 groupings, I computed averages for each metric, and set the value to -1
 or +1 indicating they were below or above the average. After this, I
@@ -264,7 +264,7 @@ most important in determining All-Stars, the features weights, and
 importances, where applicable, would be the numbers I use to see which
 metric in my dataset has the biggest impact.
 
-> Kian Ankerson CptS 315 Data Mining Course Project
+> 
 
 Results and Discussion
 
@@ -315,7 +315,7 @@ height="1.8611111111111112in"}
 want to answer, what features had the most importance. Unfortunately for
 my best classifier, the
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 SVM, I cannot determine this question. My SVM uses the RBF kernel trick,
 which expands dimensions, and therefore the weight coefficients have no
@@ -373,7 +373,7 @@ to experiment with hyperparameter tuning more to get better models. I
 definitely plan on experimenting with Machine Learning Algorithms more,
 now that I see they're not so scary!
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 Acknowledgements\
 Where I sourced my statistics from:\
@@ -383,7 +383,7 @@ Where
 
 A func
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 Training Example
 
@@ -397,7 +397,7 @@ was the statistic minus the mean for a players
 group(frontcourt/backcourt, year), then scaled after a Standard Scaler
 was fitted on the training data.
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 XGBoost Feature Importance
 
@@ -408,7 +408,7 @@ that determine an All-Star vs one that's not. Something very important
 to note here is that these are importance ranked according to gain, and
 not weight.
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 Perceptron Weights
 
@@ -420,7 +420,7 @@ features on the higher end of the spectrum are more telling that that
 player is an All-Star, and the features on the lower side have less of
 tell-tale sign the player is an All-Star, all else being equal.
 
-Kian Ankerson CptS 315 Data Mining Course Project
+
 
 > Features I used
 
