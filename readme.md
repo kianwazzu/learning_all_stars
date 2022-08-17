@@ -31,7 +31,8 @@ The specific data mining questions I set out to investigate were:
 
 ### Technical Approach
 &ensp;My technical approach to solving this problem, was starting slow, doing what was familiar to me, before branching out into new territory. As mentioned before, I was very unfamiliar with the MLA packages in Python, so I did not really know what would work, and what would not. 
-![](https://github.com/kianwazzu/learning_all_stars/blob/a81007b39f22332256cd79b6cc1a68b8f3bb4885/charts/image1.png)
+
+<img src="https://github.com/kianwazzu/learning_all_stars/blob/a81007b39f22332256cd79b6cc1a68b8f3bb4885/charts/image1.png" alt = "drawing" width = "600"/>
 #### Gather Data:
 &ensp;I started with obtaining my dataset. I decided that I wanted to look at the past 20 years of data, so I gathered per game statistics and advanced statistics from basketball-reference.com for each of the past years for each player. I downloaded these as CSVs by year. I then gathered the All-Star game rosters, again as a CSV, so I knew the class labels for the statistics.
 
