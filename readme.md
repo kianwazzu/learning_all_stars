@@ -94,15 +94,19 @@ statistic minus the mean for a players group(frontcourt/backcourt, year), then
 scaled after a Standard Scaler was fitted on the training data.
 
 XGBoost Feature Importance
-![XGBoost Feature Importance](https://github.com/kianwazzu/learning_all_stars/blob/a81007b39f22332256cd79b6cc1a68b8f3bb4885/charts/image6.png)
+<img src="https://github.com/kianwazzu/learning_all_stars/blob/a81007b39f22332256cd79b6cc1a68b8f3bb4885/charts/image6.png" alt="drawing" width="400"/>
+
 -this chart contains the top 5 most important features in my dataset that determine an All-Star vs one that’s not. Something very important to note here is that these are importance ranked according to gain, and not weight. 
 
 Perceptron Weights
-![Perceptron Weights](https://github.com/kianwazzu/learning_all_stars/blob/a81007b39f22332256cd79b6cc1a68b8f3bb4885/charts/image7.png)
+
+<img src="https://github.com/kianwazzu/learning_all_stars/blob/a81007b39f22332256cd79b6cc1a68b8f3bb4885/charts/image7.png" alt = "drawing" width = "400"/>
+
 -this chart plots the feature weight for every single metric. The features on the higher end of the spectrum are more telling that that player is an All-Star, and the features on the lower side have less of tell-tale sign the player is an All-Star, all else being equal.
 
 Features Used
 
 ![Features Used](https://github.com/kianwazzu/learning_all_stars/blob/dc9cf1d8ecb529182d959f3f9b2fda6b2baf4834/charts/image8.png)
+
 -refer to to https://www.basketball-reference.com/about/glossary.html for explanations of the stats
 
